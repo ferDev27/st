@@ -1,8 +1,0 @@
-My build of the Simple Terminal ST
-
-Dependencies:
-Victor Mono Nerd Font
-noto-fonts-emoji
-
-Emoji Support
-libxft-bgra (If conflict rm -> libxft)
