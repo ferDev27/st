@@ -21,7 +21,7 @@ GitHub: https://github.com/ferDev27
 // --------------------------- Theme Selection ---------------------------------
 #include "./themes/mod_tn.h"
 
-static char *font = "mononoki Nerd Font:size=12:weight=Regular:antialias=true:autohint=true";
+static char *font = "JetBrainsMono Nerd Font:size=12:weight=medium:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
     "Noto Color emoji:size=12:antialias=true:autohint=true"
@@ -127,7 +127,7 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.96;
+float alpha = 0.87;
 
 
 /*
@@ -143,7 +143,7 @@ float alpha = 0.96;
  * 7: blinking st cursor
  * 8: steady st cursor
  */
-static unsigned int cursorstyle = 5;
+static unsigned int cursorstyle = 0;
 static Rune stcursor = 0x2603; /* snowman ("☃") */
 
 /*

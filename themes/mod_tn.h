@@ -1,31 +1,29 @@
 static const char *colorname[] = {
 
-   	/* 8 normal colors */
-       "#1D202F",
-       "#f7768e",
-       "#9ece6a",
-       "#e0af68",
-       "#7aa2f7",
-       "#bb9af7",
-       "#7dcfff",
-       "#a9b1d6",
- 
-    /* 8 bright colors */
-       "#4c547a",
-       "#f7768e",
-       "#9ece6a",
-       "#e0af68",
-       "#7aa2f7",
-       "#bb9af7",
-       "#7dcfff",
-       "#c0caf5",
+        "#15161e", // Black
+        "#f7768e", // Red
+        "#9ece6a", // Green
+        "#e0af68", // Yellow
+        "#7aa2f7", // Blue
+        "#bb9af7", // Magenta
+        "#7dcfff", // Cyan
+        "#a9b1d6", // White
+
+        "#414868", // Bright Black
+        "#f7768e", // Bright Red
+        "#9ece6a", // Bright Green
+        "#e0af68", // Bright Yellow
+        "#7aa2f7", // Bright Blue
+        "#bb9af7", // Bright Magenta
+        "#7dcfff", // Bright Cyan
+        "#c0caf5", // Bright White
  
        [255] = 0,
  
        "#24283b", // 256 -> reverse cursor
-       "#f5a97f", // 257 -> cursor
+       "#c0caf5", // 257 -> cursor
        "#c0caf5", // 258 -> foreground
-       "#212230", // 259 -> background
+       "#171821", // 259 -> background
  };
  
 /*

@@ -5,7 +5,7 @@ Suckless **[st](https://st.suckless.org/)**
 **Dependencies**
 
 ```bash
-yay -S nerd-fonts-mononoki
+yay -S nerd-fonts-jetbrains-mono 
 ```
 
 ```bash
